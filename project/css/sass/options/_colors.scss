@@ -1,0 +1,24 @@
+$themes: (
+    green-theme: (color: #16a085),
+    blue-theme: (color: #2980b9),
+    red-theme: (color: #c0392b),
+    purple-theme: (color: #8e44ad)
+);
+
+@each $theme, $map in $themes {
+    .#{$theme} {
+        $color: map-get($map, color);
+        .page .page-head .page-title{
+            color: $color;
+        }
+        .header .header-icon{
+            color: $color;
+        }
+        .header .usermenu-container .dropdown-menu .user-info h3{
+            color: $color;
+        }
+        .setting-box .option-box{
+            border-bottom-color: $color;
+        }
+    }
+}

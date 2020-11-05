@@ -1,0 +1,43 @@
+{
+  "name": "ultimate-project",
+  "version": "1.0.0",
+  "description": "Abd-Elmnam Akmal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js",
+    "bootstrap",
+    "jQuery",
+    "commandLine",
+    "sass",
+    "pug",
+    "git",
+    "github"
+  ],
+  "author": "Abdelmnoneam-akmal",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-livereload": "^4.0.2",
+    "gulp-minify": "^3.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5"
+  },
+  "dependencies": {
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-pngquant": "^9.0.1",
+    "static-server": "^2.2.1"
+  },
+  "browserslist": [
+    "last 2 version",
+    "> 2%"
+  ]
+}
